@@ -1,0 +1,18 @@
+m = 2
+
+n = 10
+
+k = 5
+
+The Bloom Filter is 
+1101111110
+
+Membership queries for all x <-{U-S}
+
+0,False Positive : NO  
+1,False Positive : YES , <9 ,1> <8 ,1> 
+4,False Positive : YES , <8 ,1> <8 ,1> 
+5,False Positive : YES , <9 ,1> <8 ,2> 
+7,False Positive : YES , <3 ,1> <9 ,1> 
+
+Fraction of false positives , p = 0.8
